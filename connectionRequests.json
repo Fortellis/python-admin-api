@@ -1,0 +1,124 @@
+{
+  "connectionRequests": [
+    {
+      "organizationInfo": {
+        "id": "1ba5ba36-c16d-4518-8c55-f0970ea4ef01",
+        "name": "Super Car Dealership",
+        "address": "1234 Some St. Columbus, OH 43235",
+        "countryCode": "US",
+        "phoneNumber": "(614) 555-5555"
+      },
+      "appInfo": {
+        "id": "f83eaff0-3f88-4ebd-9fc8-25f051632968",
+        "name": "Awesome Application",
+        "developer": "Awesome App Developer",
+        "contactEmail": "contact@example.com",
+        "appOrgId": "2059d5f5-bccb-40c8-937e-f217311feabd"
+      },
+      "entityInfo": {
+        "id": "2529a384-aee3-4b9a-af35-ed08e77dee15",
+        "name": "Super Car Dealership",
+        "address": "1234 Some St. Columbus, OH 43235",
+        "countryCode": "US",
+        "phoneNumber": "(614) 555-5555"
+      },
+      "solutionInfo": {
+        "id": "f83eaff0-3f88-4ebd-9fc8-25f051632968",
+        "name": "Awesome Application",
+        "developer": "Awesome App Developer",
+        "contactEmail": "contact@example.com",
+        "appOrgId": "2059d5f5-bccb-40c8-937e-f217311feabd"
+      },
+      "userInfo": {
+        "fortellisId": "user@example.com"
+      },
+      "apiInfo": {
+        "id": "v1-appointments",
+        "name": "Appointments",
+        "implementationName": "Fortellis Spec 8"
+      },
+      "subscriptionId": "2529a384-acc3-4b6a-a835-ed09e77dee15",
+      "connectionId": "2529a384-add3-4b6a-a935-ed09e45def12"
+    },
+    {
+      "organizationInfo": {
+        "id": "bbcac0e4-c79a-4e3a-b126-a787bae0c29a",
+        "name": "Jareds Entity TBD",
+        "address": "6701 Burnet Rd Austin TX 78757 US",
+        "countryCode": "US",
+        "phoneNumber": "2819234655"
+      },
+      "appInfo": {
+        "id": "bbcac0e4-c79a-4e3a-b126-a787bae0c29a",
+        "name": "bbcac0e4-c79a-4e3a-b126-a787bae0c29a Testing App",
+        "developer": "Jared.Jones@cdk.com",
+        "contactEmail": "Jared.Jones@cdk.com",
+        "appOrgId": "bbcac0e4-c79a-4e3a-b126-a787bae0c29a"
+      },
+      "entityInfo": {
+        "id": "bbcac0e4-c79a-4e3a-b126-a787bae0c29a",
+        "name": "Jareds Entity TBD",
+        "address": "6701 Burnet Rd Austin TX 78757 US",
+        "countryCode": "US",
+        "phoneNumber": "2819234655"
+      },
+      "solutionInfo": {
+        "id": "bbcac0e4-c79a-4e3a-b126-a787bae0c29a",
+        "name": "bbcac0e4-c79a-4e3a-b126-a787bae0c29a Testing App",
+        "developer": "Jared.Jones@cdk.com",
+        "contactEmail": "Jared.Jones@cdk.com",
+        "appOrgId": "bbcac0e4-c79a-4e3a-b126-a787bae0c29a"
+      },
+      "userInfo": {
+        "fortellisId": "nathan.sandberg@cdk.com"
+      },
+      "apiInfo": {
+        "id": "api-v2-bbcac0e4-c79a-4e3a-b126-a787bae0c29a",
+        "name": "api-v2-bbcac0e4-c79a-4e3a-b126-a787bae0c29a",
+        "implementationName": "Fortellis Spec 8"
+      },
+      "subscriptionId": "bbcac0e4-c79a-4e3a-b126-a787bae0c29a",
+      "connectionId": "bbcac0e4-c79a-4e3a-b126-a787bae0c29a"
+    },
+    {
+      "organizationInfo": {
+        "id": "809f9dc3-c85b-497d-8ea0-edfcd3cc44eb",
+        "name": "Jareds Entity TBD",
+        "address": "6701 Burnet Rd Austin TX 78757 US",
+        "countryCode": "US",
+        "phoneNumber": "2819234655"
+      },
+      "appInfo": {
+        "id": "809f9dc3-c85b-497d-8ea0-edfcd3cc44eb",
+        "name": "809f9dc3-c85b-497d-8ea0-edfcd3cc44eb Testing App",
+        "developer": "Jared.Jones@cdk.com",
+        "contactEmail": "Jared.Jones@cdk.com",
+        "appOrgId": "809f9dc3-c85b-497d-8ea0-edfcd3cc44eb"
+      },
+      "entityInfo": {
+        "id": "809f9dc3-c85b-497d-8ea0-edfcd3cc44eb",
+        "name": "Jareds Entity TBD",
+        "address": "6701 Burnet Rd Austin TX 78757 US",
+        "countryCode": "US",
+        "phoneNumber": "2819234655"
+      },
+      "solutionInfo": {
+        "id": "809f9dc3-c85b-497d-8ea0-edfcd3cc44eb",
+        "name": "809f9dc3-c85b-497d-8ea0-edfcd3cc44eb Testing App",
+        "developer": "Jared.Jones@cdk.com",
+        "contactEmail": "Jared.Jones@cdk.com",
+        "appOrgId": "809f9dc3-c85b-497d-8ea0-edfcd3cc44eb"
+      },
+      "userInfo": {
+        "fortellisId": "nathan.sandberg@cdk.com"
+      },
+      "apiInfo": {
+        "id": "api-v2-809f9dc3-c85b-497d-8ea0-edfcd3cc44eb",
+        "name": "api-v2-809f9dc3-c85b-497d-8ea0-edfcd3cc44eb",
+        "implementationName": "Fortellis Spec 8"
+      },
+      "subscriptionId": "809f9dc3-c85b-497d-8ea0-edfcd3cc44eb",
+      "connectionId": "809f9dc3-c85b-497d-8ea0-edfcd3cc44eb"
+    }
+  ]
+}
