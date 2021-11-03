@@ -1,4 +1,4 @@
-python==3.8.1
+python-3.8.1
 aniso8601==9.0.1
 attrs==21.2.0
 cffi==1.15.0
