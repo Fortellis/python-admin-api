@@ -111,4 +111,4 @@ class ConnectionRequests(Resource):
 api.add_resource(ConnectionRequests, '/connectionRequests')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False)
