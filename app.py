@@ -156,5 +156,14 @@ class ConnectionRequests(Resource):
 
 api.add_resource(ConnectionRequests, '/connectionRequests')
 
+class DeactivationRequests(Resource):
+    def get(self):
+        with open('deactivationRequests.json', 'r+') as file:
+            parsed = json.load(file)
+
+        return parsed
+
+api.add_resource(DeactivationRequests, '/deactivationRequests')
+
 if __name__ == '__main__':
     app.run(debug=True)
