@@ -1,7 +1,7 @@
 from flask import Flask, request
 from flask_restful import Resource, Api, reqparse, abort
 
-import jwt #I'm not sure you need this part yet. 
+import jwt 
 
 from jwt import PyJWKClient
 
@@ -28,7 +28,7 @@ class Activate(Resource):
 
         token = request.headers['Authorization'][len(PREFIX):]
 
-        url = "https://identity-dev.fortellis.io/oauth2/aus1ni5i9n9WkzcYa2p7/v1/keys"
+        url = "https://identity.fortellis.io/oauth2/aus1p1ixy7YL8cMq02p7/v1/keys"
 
         app.logger.debug('This is the URL: %s', url)
 
@@ -80,7 +80,7 @@ class Deactivate(Resource):
 
         token = request.headers['Authorization'][len(PREFIX):]
 
-        url = "https://identity-dev.fortellis.io/oauth2/aus1ni5i9n9WkzcYa2p7/v1/keys"
+        url = "https://identity.fortellis.io/oauth2/aus1p1ixy7YL8cMq02p7/v1/keys"
 
         app.logger.debug('This is the URL: %s', url)
 
