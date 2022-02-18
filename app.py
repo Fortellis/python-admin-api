@@ -48,7 +48,7 @@ class Activate(Resource):
             token,
             signing_key.key,
             algorithms=["RS256"],
-            audience="api_providers",
+            audience="fortellis",
             options={"verify_exp": True},
         )
 
@@ -100,7 +100,7 @@ class Deactivate(Resource):
             token,
             signing_key.key,
             algorithms=["RS256"],
-            audience="api_providers",
+            audience="fortellis",
             options={"verify_exp": True},
         )
 
